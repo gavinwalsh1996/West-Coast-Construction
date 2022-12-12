@@ -1,0 +1,37 @@
+.three-image-gallery-container {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    .gallery-image {
+        width: 40%;
+        height: 100%;
+        object-fit: cover;
+        padding-top: 1rem;
+        cursor: pointer;
+    }
+}
+
+//Mobile
+@media only screen and (max-width: 1024px) {
+
+.three-image-gallery-container {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    .gallery-image {
+        width: 30%;
+        height: 100%;
+        object-fit: cover;
+        padding-top: 1rem;
+        cursor: pointer;
+    }
+}
+}

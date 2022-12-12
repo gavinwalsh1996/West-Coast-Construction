@@ -1,0 +1,33 @@
+.text-with-button-container {
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    p {
+        // font-size: small;
+        text-align: center;
+        padding: 2rem;
+    }
+}
+
+//Mobile
+@media only screen and (max-width: 1024px) {
+    .text-with-button-container {
+        width: 100vw;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    
+        p {
+            font-size: small;
+            text-align: center;
+        }
+    }   
+}

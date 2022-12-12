@@ -1,0 +1,42 @@
+    .gallery-container {
+        width: 100vw;
+        height: 70vh;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 220px;
+        //test
+        // -webkit-transform: translate3d(0,0,1px); 
+        // -webkit-backface-visibility: hidden;
+    }
+
+     .image {
+         width: 50%;
+         height: 80%;
+         object-fit: cover;
+        //  cursor:pointer;
+         padding: .5rem;
+    }
+
+    // .image:hover {
+    //     opacity: 60%;
+    // }
+
+    //Mobile
+    @media only screen and (max-width: 1024px) {
+        .gallery-container {
+            width: 100vw;
+            height: 60vh;
+            display: flex;
+            flex-wrap: wrap;
+            // Seperate gallery and awards components
+            padding-bottom: 20px;
+        }
+
+         .image {
+             width: 50%;
+             height: 50%;
+             object-fit: cover;
+             cursor:pointer;
+        }
+    }
+

@@ -1,0 +1,67 @@
+.imagewithtextquote-container {
+    width: 100vw;
+    height: 80vh;
+    background-color: rgb(226, 226, 226);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../newimages/kitchen-3.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.quote-text-cont {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 200px 150px;
+    gap: 1rem;
+
+    .quote {
+        font-size: 3rem;
+    }
+
+}
+
+ //Mobile
+ @media only screen and (max-width: 1024px) {
+    .imagewithtextquote-container {
+        width: 100vw;
+        height: 50vh;
+        background-color: rgb(226, 226, 226);
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../image/construction-image2.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        position: relative;
+        color: white;
+        display: none;
+    }
+    
+    .quote-text-cont {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    
+        .quote {
+            font-size: 1.6rem;
+        }
+    }
+     
+ }

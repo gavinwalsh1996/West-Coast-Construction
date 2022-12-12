@@ -1,0 +1,87 @@
+.heroimage-container {
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+    text-align: center;
+    color: rgb(32, 29, 29);
+    // background: url("../image/kitchen-renovation-image.jpg") no-repeat center center fixed;
+    // object-fit: cover;
+    // -webkit-background-size: cover;
+    // -moz-background-size: cover;
+    // -o-background-size: cover;
+    // background-size: cover;
+
+    .image-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+
+        .subheading {
+            font-size: large;
+            font-weight:bolder;
+        }
+
+        .heading {
+            font-size: 3rem;
+            // Test
+            position: absolute;
+            top: -100px;
+            // left: 16px;
+            color: rgb(255, 255, 255);
+            font-size: 5rem;
+            font-family: monospace;
+            text-shadow: rgb(58, 58, 58) 3px 3px 0px;
+            border-color: rgb(82, 82, 82);
+        }
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
+
+//Mobile
+@media only screen and (max-width: 1024px) {
+    .heroimage-container {
+        width: 100vw;
+        height: 60vh;
+        position: relative;
+        text-align: center;
+        color: rgb(32, 29, 29);
+        // background: url("../image/kitchen-renovation-image.jpg") no-repeat center center fixed;
+        // object-fit: cover;
+        // -webkit-background-size: cover;
+        // -moz-background-size: cover;
+        // -o-background-size: cover;
+        // background-size: cover;
+    
+        .image-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+    
+            .subheading {
+                font-size: small;
+                font-weight:bolder;
+            }
+    
+            .heading {
+                font-size: 2rem;
+            }
+        }
+    
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }   
+}

@@ -1,0 +1,27 @@
+.stamp-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 100vw;
+    text-align: center;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+//Mobile
+@media only screen and (max-width: 1024px) {
+    .stamp-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+        width: 100vw;
+        text-align: center;
+        padding: 2rem;
+        gap: 1rem;
+    }
+     
+}
