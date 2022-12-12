@@ -44,7 +44,7 @@ function Slideshow ({ slides }) {
     backgroundImage: `url(${slides[currentIndex].url})`,
     position: 'relative',
     objectFit: 'cover'
-  }; 
+  }; git
 
   return (
     <div className='slider-styles'>
