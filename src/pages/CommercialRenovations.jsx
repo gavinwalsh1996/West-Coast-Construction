@@ -13,10 +13,8 @@ import OfficeImage1 from '../newimages/office-2.jpg'
 import OfficeImage2 from '../newimages/office-3.jpg'
 import OfficeImage3 from '../newimages/office-4.jpg'
 
-// import Footer from '../components/Footer';
+import Footer from '../components/Footer';
 import HeroImage from '../components/HeroImage';
-// import ImageGallery from '../components/ImageGallery';
-// import TextWithButton from '../components/TextWithButton';
 import ThreeImageGallery from '../components/ThreeImageGallery';
 import TitlesAndText from '../components/TitlesAndText';
 import Awards from '../components/Awards';
@@ -26,8 +24,6 @@ import ImageWithTextCopy from '../components/ImageWithTextCopy';
 
 //Hero Content
 import OfficeHeroImage from '../image/construction-image-office.jpg'
-// import OfficeImage from '../image/construction-image-office.jpg'
-// import ContactForm from '../components/ContactForm';
 
 let subHeading = '';
 // let subHeading = 'RENOVATE YOUR BUSINESS';
@@ -40,12 +36,6 @@ let imageAndTextOne = {
     mainText: 'Companies in search of an office renovation service need look no further than us. We provide high-quality office renovations that are sure to meet your needs and exceed your expectations. Our team of experienced professionals will work closely with you to ensure that your office renovation project is completed on time and on budget.',
     Image: newOffice
 }
-
-//text with button
-// let kitchenDetails = {
-//     paragraph: 'The kitchen is the most central room in any house – it’s where we cook, eat and socialize. So, when it comes to kitchen renovations, we understand that it’s not just a cosmetic exercise, but a chance to really transform the heart of your home. Our kitchen renovation services are designed to be completely tailored to your specific needs and budget, whether you’re looking for a complete kitchen makeover or just a few simple updates.',
-//     buttonText: 'CONTACT US'
-// }
 
 //Titles and text section
 let titleParagraphOne = {
@@ -88,13 +78,6 @@ let imageWithText = {
     paragraph: ''
   }
 
-// let imageAndTextThree = {
-//     heading: 'Our experience, eye for detail & high quality cost-effectiveness puts us in the ideal spot for your next upgrade.',
-//     paragraph: ''
-//   }
-
-
-
 function CommercialRenovations() {
 
   return (
@@ -109,13 +92,7 @@ function CommercialRenovations() {
         <ImageAndText data={imageAndTextOne} />
         <ImageWithTextCopy data={imageWithText} />
         <ImageAndText data={imageAndTextTwo} />
-        {/* <ContactForm /> */}
-        {/* <ImageAndText data={kitchenData}/>
-        <ImageGallery Image1={KitchenHeroImage} Image2={KitchenHeroImage} Image3={KitchenHeroImage} Image4={KitchenHeroImage} Image5={KitchenHeroImage} Image6={KitchenHeroImage} />
-        <TextWithButton data={kitchenDetails} />
-        <Awards />
-        <ContactForm /> */}
-        {/* <Footer /> */}
+        <Footer />
     </div>
 
   )

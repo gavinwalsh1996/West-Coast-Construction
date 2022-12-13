@@ -3,7 +3,7 @@ import React from 'react'
 //Css
 import '../css/HomeRenovations.scss'
 
-// import Footer from '../components/Footer';
+import Footer from '../components/Footer';
 import HeroImage from '../components/HeroImage';
 import ImageGallery from '../components/ImageGallery';
 import TextWithButton from '../components/TextWithButton';
@@ -52,7 +52,7 @@ function BathroomRenovations() {
         <TextWithButton data={bathroomDetails}/>
         <Awards />
         <ContactForm />
-        {/* <Footer /> */}
+        <Footer />
     </div>
 
   )

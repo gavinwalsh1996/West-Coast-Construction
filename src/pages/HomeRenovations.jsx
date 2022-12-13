@@ -8,25 +8,13 @@ import image1 from '../newimages/outside-house-3.jpg'
 import image2 from '../newimages/kitchen-4.jpg'
 import Image from '../newimages/construction-worker.jpg'
 
-//test image
-// import office from '../testimage/construction-image-office-min.jpg'
-
 //Components 
 import HeroImage from '../components/HeroImage'
-// import ThreeImageGallery from '../components/ThreeImageGallery'
 import ImageTextGrid from '../components/ImageTextGrid'
 import ImageChecklist from '../components/ImageChecklist'
-// import ImageWithText from '../components/ImageWithText'
 import ImageAndText from '../components/ImageAndText'
 import Awards from '../components/Awards'
-// import ContactForm from '../components/ContactForm'
-// import Footer from '../components/Footer'
-// import Slideshow from '../components/Slideshow'
-
-// Image gallery content
-// import imageOne from '../image/construction-image2.jpg'
-// import imageTwo from '../image/construction-image5.jpg'
-// import imageThree from '../image/construction-image4.jpg'
+import Footer from '../components/Footer'
 
 //Hero Content
 import KitchenHeroImage from '../newimages/kitchen-3.jpg'
@@ -75,14 +63,11 @@ function HomeRenovations() {
 
     <div className='home-reno-container'>
         <HeroImage image={KitchenHeroImage} subHeading={subHeading} heading={heading}/>
-        {/* <ThreeImageGallery imageOne={imageOne} imageTwo={imageTwo} imageThree={imageThree}/> */}
         <ImageTextGrid textGridData={textGridDataOne} textGridDataTwo={textGridDataTwo}/>
         <Awards />
         <ImageAndText data={imageAndText} />
         <ImageChecklist data={imageChecklist}/>
-        {/* <ImageWithText /> */}
-        {/* <ContactForm /> */}
-        {/* <Footer /> */}
+        <Footer />
     </div>
 
   )

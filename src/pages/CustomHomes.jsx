@@ -9,7 +9,7 @@ import ImageWithTextQuote from '../components/ImageWithTextQuote';
 import CertifiedStamp from '../components/CertifiedStamp';
 import Awards from '../components/Awards';
 import ContactForm from '../components/ContactForm'
-// import Footer from '../components/Footer'
+import Footer from '../components/Footer'
 
 //Images 
 import HeroImageFile from '../newimages/outside-house-3.jpg'
@@ -65,7 +65,7 @@ function CustomHomes() {
       <CertifiedStamp />
       <Awards />
       <ContactForm />
-      {/* <Footer /> */}
+      <Footer />
 
     </div>
 

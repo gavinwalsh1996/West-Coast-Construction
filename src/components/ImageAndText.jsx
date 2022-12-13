@@ -7,17 +7,6 @@ import '../css/ImageAndText.scss'
 function ImageAndText({data}) {
 
   return (
-
-    // <div className='imagetextgrid-container'>
-    //       <div className="one">
-    //             <img src={textGridDataTwo.img} className='grid-img'></img>
-    //           <div className="text-container">
-    //               <h6 className='heading'>{textGridDataTwo.heading}</h6>
-    //               <h2 className='sub-heading'>{textGridDataTwo.subHeading}</h2>
-    //               <p className='grid-text'>{textGridDataTwo.gridText}</p>
-    //           </div>
-    //       </div>
-    // </div>
     <div className='imageandtext-container'>
           <div className="one">
                 <img src={data.Image} className='grid-img' alt='' loading=" lazy" ></img>

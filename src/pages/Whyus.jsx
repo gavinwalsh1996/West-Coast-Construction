@@ -3,16 +3,13 @@ import React from 'react'
 //Css
 import '../css/WhyUs.scss'
 
-//Image
-// import TeamImage from '../image/construction-team.jpg'
-
 //Components
 import Hero from '../components/HeroImage'
 import HeroImage from '../newimages/office-worker.jpg'
 // import CertifiedStamp from '../components/CertifiedStamp'
 import WhyUsSection from '../components/WhyUsSection'
 import Awards from '../components/Awards'
-// import Footer from '../components/Footer'
+import Footer from '../components/Footer'
 
 let subHeading = '';
 let heading = 'CALIFORNIAN GENERAL CONTRACTOR';
@@ -33,7 +30,7 @@ function Whyus() {
         <img src={TeamImage} alt='team-img' />
       </div> */}
       {/* Add the same image styles for grid */}
-      {/* <Footer /> */}
+      <Footer />
 
     </div>
   )
