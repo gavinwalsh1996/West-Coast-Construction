@@ -2,7 +2,6 @@ import React from 'react'
 
 //Components 
 import ImageAndText from '../components/ImageAndText'
-import ImageAndTextOpp from '../components/ImageAndTextOpp'
 import Footer from '../components/Footer'
 
 //Image 
