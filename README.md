@@ -8,7 +8,7 @@ Desktop View :
 
 Mobile View: 
 
-![Screenshot (30)](https://user-images.githubusercontent.com/101522330/201775959-a3eee7b0-273d-4c97-8690-9c57813a046f.png)
+![west-coast-construction-mobile-image](https://user-images.githubusercontent.com/101522330/207731975-2c82e40a-8aa8-45d0-9437-36461bc20f4b.png)
 
 <h1>Inspiration</h1>
 
