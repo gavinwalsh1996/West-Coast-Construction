@@ -2,11 +2,9 @@
 
 A construction website concept built to showcase my layout skills and to show that I can build a generic website. This project was built using React and styled with SASS.
 
-https://westcoast-construction.netlify.app/
-
 Desktop View : 
 
-![west-coast-construction-image](https://user-images.githubusercontent.com/101522330/207731338-6d89c22c-b300-4923-b642-25e1ead75d0a.png)
+![west-coast-construction-image](https://user-images.githubusercontent.com/101522330/207731479-59fb7d92-c72f-4e7f-b6d1-f27bc440c750.png)
 
 Mobile View: 
 
