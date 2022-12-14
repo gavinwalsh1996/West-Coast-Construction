@@ -1,12 +1,12 @@
 <h1>West Coast Construction</h1>
 
-A construction website concept built to showcase my skills and to show that I can build a generic website. This project was built using React and styled with SASS.
+A construction website concept built to showcase my layout skills and to show that I can build a generic website. This project was built using React and styled with SASS.
 
 https://westcoast-construction.netlify.app/
 
 Desktop View : 
 
-![portfolio-website-screenshot](https://user-images.githubusercontent.com/101522330/201959388-46657fdd-e756-4db7-873d-71eaa572f91d.png)
+![west-coast-construction-image](https://user-images.githubusercontent.com/101522330/207731338-6d89c22c-b300-4923-b642-25e1ead75d0a.png)
 
 Mobile View: 
 
