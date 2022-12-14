@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+<h1>West Coast Construction</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A construction website concept built to showcase my skills and to show that I can build a generic website. This project was built using React and styled with SASS.
 
-## Available Scripts
+https://westcoast-construction.netlify.app/
+
+Desktop View : 
+
+![portfolio-website-screenshot](https://user-images.githubusercontent.com/101522330/201959388-46657fdd-e756-4db7-873d-71eaa572f91d.png)
+
+Mobile View: 
+
+![Screenshot (30)](https://user-images.githubusercontent.com/101522330/201775959-a3eee7b0-273d-4c97-8690-9c57813a046f.png)
+
+<h1>Inspiration</h1>
+
+After posting my portfolio online for feedback, I had lots of people mention that I didn't have enough projects within my portfolio website.
+This was something I was aware of myself and wanted to add as many projects as possible to better my chances of finding a job. I realized that I was missing a simple web design of a generic company website as my current projects were more app/entertainment focused.
+
+<h1>Summary</h1>
+
+With this design, I spent a lot of time planning and gathering information from many different construction websites. In the end, I gathered most of my content (written information) from a live website and made the tweaks to make it my own. I felt that it was not worth my time coming up with all of the company information myself from scratch and could spend that time on more important tasks within my project. 
+
+This project wasn't overly challenging for me because of it's simplicity but I defintely still learned a lot from it and improved my overall web development skills.
+It also encouraged me to learn Tailwind CSS for my next project as I noticed that I spent a lot of time with stylesheets which really slowed down the process.
+
+
+<h1>Built With</h1>
+
+- React.js
+- SASS
+- Material UI
+
+<h1>Features</h1>
+
+- Mobile responsive / mobile header on smaller screen sizes
+- Full width slideshow on landing page
+- Very user friendly
+
+<h1>Installation and Useage</h1>
+
+<h3>Install Dependencies</h3>
+
+npm install
 
 In the project directory, you can run:
 
-### `npm start`
+<h3>npm start</h3>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Open http://localhost:3000 to view it in the browser.
